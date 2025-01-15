@@ -8,7 +8,7 @@ export function createCards(films, container) {
 
       // Crear el contenido de la carta
       card.innerHTML = `
-        <img src="https://via.placeholder.com/300x200?text=${encodeURIComponent(film.title)}" alt="${film.title}">
+        <img src="${film.image}" alt="${film.title}">
         <div class="content">
           <h2>${film.title}</h2>
           <p>${film.summary}</p>
