@@ -178,5 +178,50 @@ export const films = [
     releaseDate: "October 14, 1994",
     casting: ["John Travolta", "Samuel L. Jackson", "Uma Thurman", "Bruce Willis", "Ving Rhames"],
     image: "https://pics.filmaffinity.com/Pulp_Fiction-210382116-large.jpg"
+  },
+  {
+    title: "Whiplash",
+    summary: "Un joven baterista lucha por alcanzar la perfección bajo la presión de un exigente instructor.",
+    duration: "106 minutes",
+    genre: ["Drama", "Music"],
+    releaseDate: "October 10, 2014",
+    casting: ["Miles Teller", "J.K. Simmons", "Melissa Benoist", "Paul Reiser"],
+    image: "https://static.thcdn.com/images/large/original/productimg/960/960/11082220-8194283140807851.jpg"
+  },
+  {
+    title: "Spirited Away",
+    summary: "Chihiro, una niña de 10 años, queda atrapada en un mundo espiritual y debe trabajar para sobrevivir.",
+    duration: "125 minutes",
+    genre: ["Animation", "Adventure", "Fantasy"],
+    releaseDate: "July 20, 2001",
+    casting: ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki", "Takashi Naito"],
+    image: "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    title: "The Shawshank Redemption",
+    summary: "Un banquero condenado a cadena perpetua por un crimen que no cometió encuentra consuelo y redención a través de actos de decencia común.",
+    duration: "142 minutes",
+    genre: ["Drama"],
+    releaseDate: "September 23, 1994",
+    casting: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
+    image: "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg"
+  },
+  {
+    title: "The Godfather",
+    summary: "La historia de la familia Corleone, una de las más poderosas familias de la mafia en Nueva York.",
+    duration: "175 minutes",
+    genre: ["Crime", "Drama"],
+    releaseDate: "March 24, 1972",
+    casting: ["Marlon Brando", "Al Pacino", "James Caan", "Richard S. Castellano", "Robert Duvall"],
+    image: "https://m.media-amazon.com/images/I/41+eK8zBwQL._AC_.jpg"
+  },
+  {
+    title: "Forrest Gump",
+    summary: "La vida de Forrest Gump, un hombre con un coeficiente intelectual bajo pero con un corazón puro, que presencia y participa en eventos históricos importantes.",
+    duration: "142 minutes",
+    genre: ["Drama", "Romance"],
+    releaseDate: "July 6, 1994",
+    casting: ["Tom Hanks", "Robin Wright", "Gary Sinise", "Mykelti Williamson", "Sally Field"],
+    image: "https://m.media-amazon.com/images/S/pv-target-images/f9ddd832d1b566f5b8dd29a4dbc76b7531c420c8c8d9fdfe94eca128bda8e2b1.jpg"
   }
 ];
