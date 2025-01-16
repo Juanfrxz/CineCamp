@@ -25,8 +25,6 @@ export function createCards(films, container) {
   });
 }
 
-
-
 function openModal(film) {
   const modal = document.createElement("div");
   modal.className = "modal-overlay";
