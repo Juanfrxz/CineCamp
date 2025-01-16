@@ -1,101 +1,106 @@
 
 # 🎥 CineCamp 🎬
 
-¡Bienvenido a **CineCamp**! 🌟 Una aplicación web diseñada para que disfrutes de una experiencia cinematográfica desde la comodidad de tu hogar. 🍿✨
+Welcome to **CineCamp**! 🌟 A web application designed to bring the cinema experience right to your fingertips. 🍿✨
 
 ---
 
-## 🚀 Descripción
+## 🚀 Description
 
-**CineCamp** es la plataforma ideal para los amantes del cine. Explora, descubre y reserva entradas para tus películas favoritas con solo unos clics. 🖥️📱
+**CineCamp** is the perfect platform for movie lovers. Explore, discover, and book tickets for your favorite movies with just a few clicks. 🖥️📱
 
-### 🌟 Características principales
+### 🌟 Key Features
 
-- 🔎 **Búsqueda avanzada** por título, género o fecha.
-- 🎞️ **Visualización de detalles** como sinopsis, elenco y tráilers.
-- 🛒 **Reserva y compra de entradas** fácilmente.
-- 🗂️ **Historial de reservas** para llevar un registro de tus películas vistas.
+- 🔎 **Advanced search** by title, genre, or release date.
+- 🎞️ **Detailed movie information** including synopsis, cast, and trailers.
+- 🛒 **Ticket booking and purchase** made simple.
+- 🗂️ **Booking history** to keep track of watched movies.
 
 ---
 
-## 🛠️ Instalación
+## 🛠️ Installation
 
-¡Sigue estos pasos para configurar CineCamp en tu máquina local! 🖥️💻
+Follow these steps to set up CineCamp on your local machine! 🖥️💻
 
-1. **Clona el repositorio:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/Juanfrxz/CineCamp.git
    ```
 
-2. **Ingresa al directorio del proyecto:**
+2. **Navigate to the project directory:**
 
    ```bash
    cd CineCamp
    ```
 
-3. **Instala las dependencias necesarias:**
+3. **Install required dependencies:**
 
    ```bash
    npm install
    ```
 
-4. **Inicia el servidor local:**
+4. **Start the local server:**
 
    ```bash
    npm start
    ```
 
-5. **¡Listo!** Abre tu navegador y ve a `http://localhost:3000`. 🚀
+5. **All set!** Open your browser and go to `http://localhost:3000`. 🚀
 
 ---
 
-## 🎮 Cómo usar
+## 🎮 How to Use
 
-1. 🔍 **Busca películas:** Usa la barra de búsqueda para encontrar lo que deseas.
-2. 🎥 **Explora detalles:** Haz clic en cualquier póster para ver información completa.
-3. 🛒 **Reserva entradas:** Elige tu horario preferido y compra tus entradas en segundos.
-
----
-
-## 💻 Lenguajes y tecnologías utilizados
-
-Este proyecto fue desarrollado utilizando los siguientes lenguajes y tecnologías:
-
-- 🟦 **HTML5**: Para la estructura de la aplicación.
-- 🎨 **CSS3**: Para el diseño y los estilos.
-- ⚡ **JavaScript**: Para la lógica del cliente.
+1. 🔍 **Search for movies:** Use the search bar to find what you're looking for.
+2. 🎥 **View details:** Click on any movie poster to see complete information.
+3. 🛒 **Book tickets:** Select your preferred schedule and purchase tickets in seconds.
 
 ---
 
-## 🤝 Contribuciones
+## 💻 Languages and Technologies Used
 
-¡Contribuir es simple! 🎉 Si quieres ayudar a mejorar **CineCamp**, sigue estos pasos:
+This project was developed using the following languages and technologies:
 
-1. Haz un **fork** del repositorio. 🍴
-2. Crea una rama para tu funcionalidad:
+- 🟦 **HTML5**: For structuring the application.
+- 🎨 **CSS3**: For design and styling.
+- ⚡ **JavaScript**: For client-side logic.
+
+---
+
+## 🤝 Contributions
+
+Contributing is easy! 🎉 If you'd like to help improve **CineCamp**, follow these steps:
+
+1. **Fork** the repository. 🍴
+2. Create a branch for your feature:
 
    ```bash
-   git checkout -b feature/nueva-funcionalidad
+   git checkout -b feature/new-feature
    ```
 
-3. Realiza tus cambios y haz **commit**:
+3. Make your changes and commit them:
 
    ```bash
-   git commit -m 'Agrega nueva funcionalidad'
+   git commit -m 'Add new feature'
    ```
 
-4. Envía tus cambios al repositorio remoto:
+4. Push your changes to the remote repository:
 
    ```bash
-   git push origin feature/nueva-funcionalidad
+   git push origin feature/new-feature
    ```
 
-5. Abre una **Pull Request**. ¡Y listo! 🚀
+5. Open a **Pull Request**. That's it! 🚀
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Desarrollado con 💻❤️ por [Juanfrxz](https://github.com/Juanfrxz).
+Developed with 💻❤️ by [Juanfrxz](https://github.com/Juanfrxz).
 
+---
+
+## 🌐 Link page
+
+[Cine Campus Page](https://github.com/Juanfrxz).
