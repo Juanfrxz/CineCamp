@@ -10,6 +10,7 @@ export function createCards(films, container) {
         <img class="img-card" src="${film.image}" alt="${film.title}">
         <div class="content">
           <h2 class="title-card">${film.title}</h2>
+          <p>${film.summary}</p>
           <button class="ver-mas-btn">Ver más</button>
           </div>
           
