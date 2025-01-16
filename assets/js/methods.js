@@ -8,17 +8,17 @@ export function createCards(films, container) {
 
       // Crear el contenido de la carta
       card.innerHTML = `
-        <img src="${film.image}" alt="${film.title}">
+        <img class="img-card" src="${film.image}" alt="${film.title}">
         <div class="content">
-          <h2>${film.title}</h2>
-          <p>${film.summary}</p>
-          <p class="genre">Genres: ${film.genre.join(", ")}</p>
-          <p class="release-date">Release Date: ${film.releaseDate}</p>
-          <p class="duration">Duration: ${film.duration}</p>
-          <p class="actors">Cast: ${film.casting.join(", ")}</p>
-        </div>
-      `;
-
-      container.appendChild(card);
-    });
-  }
+          <h2 class="title-card">${film.title}</h2>
+          <button class="ver-mas-btn">Ver más</button>
+          </div>
+          `;
+          
+          container.appendChild(card);
+        });
+    }
+    //   <p class="genre">Genres: ${film.genre.join(", ")}</p>
+    //   <p class="release-date">Release Date: ${film.releaseDate}</p>
+    //   <p class="duration">Duration: ${film.duration}</p>
+    //   <p class="actors">Cast: ${film.casting.join(", ")}</p>
