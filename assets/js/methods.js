@@ -11,7 +11,7 @@ export function createCards(films, container) {
         <div class="content">
           <h2 class="title-card">${film.title}</h2>
           <p>${film.summary}</p>
-          <button class="ver-mas-btn">Ver más</button>
+          <button class="ver-mas-btn">see more</button>
           </div>
           
           `;
@@ -24,10 +24,8 @@ export function createCards(films, container) {
     });
   });
 }
-//   <p class="genre">Genres: ${film.genre.join(", ")}</p>
-//   <p class="release-date">Release Date: ${film.releaseDate}</p>
-//   <p class="duration">Duration: ${film.duration}</p>
-//   <p class="actors">Cast: ${film.casting.join(", ")}</p>
+
+
 
 function openModal(film) {
   const modal = document.createElement("div");
@@ -59,3 +57,47 @@ function openModal(film) {
     }
   });
 }
+
+import { films } from "../data/data.js";
+
+// Función para manejar la búsqueda
+export function setupSearch() {
+    const searchInput = document.getElementById("search-input");
+    const searchButton = document.getElementById("search-button");
+    const moviesContainer = document.getElementById("movies-container");
+
+    // Función para realizar la búsqueda
+    const searchMovies = (query,) => {
+        return new Promise((resolve, reject) => {
+            // Simular una búsqueda asincrónica
+            setTimeout(() => {
+                const results = films.filter((film) =>
+                    film.title.toLowerCase().includes(query.toLowerCase())
+                );
+                resolve(results);
+            }, 300); // Simular un retraso de 300ms
+        });
+    };
+
+    // Event listener para el botón de búsqueda
+    searchButton.addEventListener("click", () => {
+        const query = searchInput.value.trim();
+        if (query) {
+            searchMovies(query)
+                .then((results) => {
+                    // Limpiar el contenedor y mostrar los resultados
+                    moviesContainer.innerHTML = "";
+                    if (results.length > 0) {
+                        createCards(results, moviesContainer);
+                    } else {
+                        moviesContainer.innerHTML = "<p>No movies found.</p>";
+                    }
+                })
+                .catch((error) => {
+                    console.error("Error fetching movies:", error);
+                    moviesContainer.innerHTML = "<p>Error searching movies.</p>";
+                });
+        }
+    });
+}
+

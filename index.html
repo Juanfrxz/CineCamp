@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="assets/js/app.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
@@ -17,7 +16,7 @@
     <div class="navbar">
         <div class="navbar-container">
             <div class="logo-container">
-                <h1 class="logo">Cine Camper</h1>
+                <h1 class="logo">Cine</h1>
             </div>
             <div class="menu-container">
                 <ul class="menu-list">
@@ -47,11 +46,12 @@
         <i class="left-menu-icon fas fa-shopping-cart"></i>
     </div>
     <div class="bar-buscar">
-        <input type="text" class="search-bar" placeholder="Search for movies">
-        <i class="left-menu-icon fas fa-search" id="icon-search"></i>
+        <input type="text" class="search-bar" placeholder="Search for movies" id="search-input">
+        <button class="buton-search" id="search-button">Search</button>
     </div>
     <div class="container" id="movies-container">
     </div>
+    <script type="module" src="assets/js/app.js"></script>
 </body>
 
 </html>
